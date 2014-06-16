@@ -1,5 +1,5 @@
-name: setup-android-emulator
-version: 0.0.8
+name: setup-android-emulator-with-sdcard
+version: 0.0.1
 description: setup android emulator
 keywords:
   - android

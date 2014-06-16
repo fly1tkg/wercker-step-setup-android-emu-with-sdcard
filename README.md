@@ -1,5 +1,3 @@
-[![wercker status](https://app.wercker.com/status/2a0f14a005b14ce4ed873d37e97832b0/m "wercker status")](https://app.wercker.com/project/bykey/2a0f14a005b14ce4ed873d37e97832b0)
-
 # create and launch AVD instance
 
 Create and launch an Android Virtual Device.
@@ -50,17 +48,3 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-# Changelog
-
-## 0.0.7
-
-- updated to work with android box version 0.0.17 and up
-
-## 0.0.2
-
-- extra -n option added
-
-## 0.0.1
-
-- initial release
