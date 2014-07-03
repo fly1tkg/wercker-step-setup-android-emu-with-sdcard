@@ -1,10 +1,11 @@
 name: setup-android-emulator-with-sdcard
 version: 0.0.5
-description: setup android emulator
+description: setup android emulator with SD Card
 keywords:
   - android
   - emulator
   - AVD
+  - SD Card
 properties:
   target:
     type: string
