@@ -3,5 +3,6 @@ echo no | android create avd --force -n $WERCKER_SETUP_ANDROID_EMULATOR_WITH_SDC
 echo "hw.keyboard=yes" >> ~/.android/avd/$WERCKER_SETUP_ANDROID_EMULATOR_WITH_SDCARD_TARGET_NAME.avd/config.ini
 echo "Enabled hardware keyboard"
 cat ~/.android/avd/$WERCKER_SETUP_ANDROID_EMULATOR_WITH_SDCARD_TARGET_NAME.avd/config.ini
+adb reboot
 emulator -avd $WERCKER_SETUP_ANDROID_EMULATOR_WITH_SDCARD_TARGET_NAME -no-audio -no-window -verbose &
 $WERCKER_STEP_ROOT/wait_for_emulator.sh
